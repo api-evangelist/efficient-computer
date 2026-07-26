@@ -1,8 +1,18 @@
 aid: efficient-computer
 name: Efficient Computer
-description: Efficient Computer is a company surfaced as a portfolio company of union-square-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Efficient Computer builds general-purpose, energy-minimal processors for edge
+  and embedded AI. Its Fabric architecture is a reconfigurable spatial dataflow
+  array that maps application graphs directly onto hardware, eliminating the
+  wasteful data movement of traditional Von Neumann CPUs. The Electron E1
+  processor pairs the Fabric with an integrated RISC-V scalar core to deliver up
+  to 100x better energy efficiency than low-power CPUs, and the proprietary effcc
+  compiler acts as a drop-in replacement for GCC/Clang that extracts dataflow
+  from C, C++, and TensorFlow Lite while preserving GDB-compatible debugging.
+  Efficient Computer is a silicon and developer-toolchain company based in
+  Pittsburgh, Pennsylvania, backed by Union Square Ventures, targeting on-device
+  AI inference, IoT, and industrial and physical-AI systems that must run for
+  years on a single charge.
 url: https://raw.githubusercontent.com/api-evangelist/efficient-computer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,17 +20,77 @@ x-backed-by:
 - union-square-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/66b5df5cfbd0a22c4c71f73a/66f684f123149d908cb92e49_opengraph.jpg
 tags:
 - Company
+- Semiconductors
+- Processors
+- Edge AI
+- Embedded Systems
+- Energy Efficiency
+- Compilers
+- Dataflow Architecture
+- RISC-V
+- IoT
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+- FN: Efficient Computer
+  email: contact@efficient.computer
 common:
 - type: Website
   url: https://www.efficient.computer
+- type: DeveloperPortal
+  url: https://docs.efficient.computer/
+- type: Documentation
+  url: https://docs.efficient.computer/
+- type: GettingStarted
+  url: https://www.efficient.computer/technology
+- type: Sandbox
+  url: https://playground.efficient.computer/
+- type: SignUp
+  url: https://www.efficient.computer/playground-signup
+- type: Blog
+  url: https://www.efficient.computer/resources
+- type: Support
+  url: https://www.efficient.computer/contact
+- type: FAQ
+  url: https://www.efficient.computer/faq
+- type: PrivacyPolicy
+  url: https://www.efficient.computer/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/EfficientComputer
+- type: LinkedIn
+  url: https://www.linkedin.com/company/efficientcomputer/
+- type: Twitter
+  url: https://x.com/efficient_hq
+- type: YouTube
+  url: https://www.youtube.com/@EfficientComputer
+- type: Bluesky
+  url: https://bsky.app/profile/efficientcomputer.bsky.social
+- type: LLMsTxt
+  url: llms/efficient-computer-llms.txt
+- type: DomainSecurity
+  url: security/efficient-computer-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

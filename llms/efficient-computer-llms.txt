@@ -1,0 +1,31 @@
+# Efficient Computer
+
+> Efficient Computer builds general-purpose, energy-minimal processors for edge and embedded AI. Its Fabric architecture is a reconfigurable spatial dataflow array that maps application graphs directly onto hardware, and its Electron E1 processor plus the effcc compiler deliver up to 100x better energy efficiency than traditional low-power CPUs while keeping a familiar C/C++/TensorFlow Lite programming model.
+
+Efficient Computer is a silicon and compiler company (Pittsburgh, PA), not a web-API provider. Developers program the Electron E1 with the effcc compiler — a drop-in replacement for GCC/Clang with GDB-compatible debugging — rather than through a hosted REST API. The developer documentation and compiler playground are account-gated. This file is a generated catalog summary; there is no provider-published llms.txt for Efficient Computer (the file currently served at /llms.txt belongs to an unrelated company on the shared Webflow host and was intentionally not captured).
+
+## Products
+- [Electron E1 processor](https://www.efficient.computer/electron-e1): General-purpose processor on the Fabric architecture; 5.4–21.6 GOPS with an integrated RISC-V scalar core and NUPEA non-uniform PE access.
+- [effcc compiler](https://www.efficient.computer/effcc): Proprietary compiler with a Modular Optimization Framework (MOF) that extracts dataflow from C, C++, and TensorFlow Lite; drop-in for GCC/Clang.
+- [Electron E1 EVK](https://www.efficient.computer/e1-evk-brief): Electron E1 evaluation kit for prototyping on-device inference and embedded workloads.
+- [Compiler Playground](https://playground.efficient.computer/): Browser-based effcc compiler playground (account required).
+- [Efficient Labs](https://labs.efficient.computer/): Applied research and developer platform.
+
+## Docs
+- [Documentation portal](https://docs.efficient.computer/): Developer documentation for the effcc toolchain and Electron E1 (login required).
+- [Technology overview](https://www.efficient.computer/technology): Fabric architecture, Electron E1, and the effcc compiler.
+- [FAQ](https://www.efficient.computer/faq)
+- [Playground sign-up](https://www.efficient.computer/playground-signup)
+
+## Resources
+- [Resources / news](https://www.efficient.computer/resources): Company announcements, technical write-ups, and research papers.
+- [Media kit](https://www.efficient.computer/media)
+- [About & careers](https://www.efficient.computer/about)
+
+## Code
+- [GitHub org (EfficientComputer)](https://github.com/EfficientComputer): Public repos are compiler infrastructure (LLVM, ClangIR, Polygeist, IREE, Verilator) and E1x example code — not client SDK packages.
+
+## Company
+- [Contact](https://www.efficient.computer/contact): contact@efficient.computer — Pittsburgh, Pennsylvania, USA.
+- [Privacy policy](https://www.efficient.computer/privacy-policy)
+- Backed by Union Square Ventures.
